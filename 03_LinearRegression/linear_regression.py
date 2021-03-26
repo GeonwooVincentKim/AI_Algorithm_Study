@@ -50,12 +50,3 @@ y_pred = a * x_data + b
 plt.scatter(x, y)
 plt.plot([min(x_data), max(x_data)], [min(y_pred), max(y_pred)])
 plt.show()
-
-# if __name__ == "__main__":
-#     predict_result = []
-
-#     for i in range(len(x)):
-#         predict_result.append(predict(x[i]))
-#         print("공부할 시간 = %.f, 실제 점수 = %.f, 예측 점수 = %.f" % (x[i], y[i], predict(x[i])))
-
-#     print("Mse 최종 값 : " + str(mse_val(predict_result, y)))
